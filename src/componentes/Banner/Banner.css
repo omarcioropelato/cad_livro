@@ -1,13 +1,50 @@
+.header{
+    background-color: #1C1C1C;
+    margin-top: 0px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    padding-left: 64px;
+    padding-right: 64px;
+    background-image: linear-gradient(to right,#E0FFFF,#B0E0E6);
+    
+}
+
 .container{
-    height: 100%;
+    height: 80%;
     text-align: center;
-    background-color: #FAF0E6;
+    background-color: white;
     border-radius: 20px;
-    margin-top: 64px;
-    margin-left: 64px;
-    margin-right: 64px;
-    margin-bottom: 64px;
     box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.08);
+    padding-top: 16px;
+}
+
+.logo-ipc{
+    width: 38%;
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+}
+
+.logo-ipc img{
+    max-width: 100%;
+    text-align: left;
+    display: inline-block;
+    position: relative;
+}
+
+.links{
+    width: 38%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.links li{
+    display: inline-block;
+    margin-right: 32px;
+    font-size: 24px;
+    font-weight: bolder;
+    color: #008080;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .informacoes-textuais{
@@ -36,7 +73,7 @@
     vertical-align: bottom;
 }
 
-.container img{
+.imagens img{
     margin-top: 50px;
     display: inline-block;
     position: relative;
